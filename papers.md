@@ -2,6 +2,14 @@
 
 ## 2020-10
 
+[ZerO Initialization: Initializing Residual Networks with only Zeros and Ones](https://openreview.net/forum?id=EYCm0AFjaSS)
+<details>
+<summary>Short abstract</summary>
+We propose a fully deterministic initialization for training residual networks by employing skip connections and Hadamard transforms, resulting in state-of-art performance.
+</details>
+<br/>
+
+
 [The Efficiency Misnomer](https://arxiv.org/abs/2110.12894)
 <details>
 <summary>Short abstract</summary>
@@ -10,14 +18,18 @@ Model efficiency is a critical aspect of developing and deploying machine learni
 <details>
 <summary>Notes</summary>
 </details>
+<br/>
 
 [Stochastic Training is Not Necessary for Generalization](https://arxiv.org/abs/2109.14119)
 <details>
 <summary>Short abstract</summary>
 It is widely believed that the implicit regularization of stochastic gradient descent (SGD) is fundamental to the impressive generalization behavior we observe in neural networks. In this work, we demonstrate that non-stochastic full-batch training can achieve strong performance on CIFAR-10 that is on-par with SGD, using modern architectures in settings with and without data augmentation.
 </details>
+<br/>
 
 [A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning](https://arxiv.org/abs/2109.02355)
 <details>
 <summary>Short abstract</summary>
-Overparameterized models are excessively complex with respect to the size of the training dataset, which results in them perfectly fitting (i.e., interpolating) the training data, which is usually noisy. Such interpolation of noisy data is traditionally associated with detrimental overfitting, and yet a wide range of interpolating models -- from simple linear models to deep neural networks -- have recently been observed to generalize extremely well on fresh test data. Indeed, the recently discovered double descent phenomenon has revealed that highly overparameterized models often improve over the best underparameterized model in test performance</details>
+Overparameterized models are excessively complex with respect to the size of the training dataset, which results in them perfectly fitting (i.e., interpolating) the training data, which is usually noisy. Such interpolation of noisy data is traditionally associated with detrimental overfitting, and yet a wide range of interpolating models -- from simple linear models to deep neural networks -- have recently been observed to generalize extremely well on fresh test data. Indeed, the recently discovered double descent phenomenon has revealed that highly overparameterized models often improve over the best underparameterized model in test performance
+</details>
+<br/>
