@@ -1,6 +1,28 @@
 # Papers
 
+## 2020-06
+
+[Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
+<details>
+<summary>Short abstract</summary>
+In this paper, we demonstrate that the self-attention mechanism can be approximated by a low-rank matrix. We further exploit this finding to propose a new self-attention mechanism, which reduces the overall self-attention complexity from O(n^2) to O(n) in both time and space.
+</details>
+
+## 2020-09
+
+[Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794)
+<details>
+<summary>Short abstract</summary>
+We introduce Performers, Transformer architectures which can estimate regular (softmax) full-rank-attention Transformers with provable accuracy, but using only linear (as opposed to quadratic) space and time complexity, without relying on any priors such as sparsity or low-rankness.
+</details>
+
 ## 2020-10
+
+[ZerO Initialization: Initializing Residual Networks with only Zeros and Ones](https://openreview.net/forum?id=EYCm0AFjaSS)
+<details>
+<summary>Short abstract</summary>
+We propose a fully deterministic initialization for training residual networks by employing skip connections and Hadamard transforms, resulting in state-of-art performance.
+</details>
 
 [The Efficiency Misnomer](https://arxiv.org/abs/2110.12894)
 <details>
