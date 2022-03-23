@@ -16,6 +16,13 @@ In this paper, we demonstrate that the self-attention mechanism can be approxima
 We introduce Performers, Transformer architectures which can estimate regular (softmax) full-rank-attention Transformers with provable accuracy, but using only linear (as opposed to quadratic) space and time complexity, without relying on any priors such as sparsity or low-rankness.
 </details>
 
+## 2020-10
+
+[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412)
+<details>
+<summary>Short abstract</summary>
+Motivated by prior work connecting the geometry of the loss landscape and generalization, we introduce a novel, effective procedure for instead simultaneously minimizing loss value and loss sharpness. In particular, our procedure, Sharpness-Aware Minimization (SAM), seeks parameters that lie in neighborhoods having uniformly low loss; this formulation results in a min-max optimization problem on which gradient descent can be performed efficiently. 
+</details>
 
 ## 2021-04
 
@@ -80,4 +87,12 @@ We apply global, structural pruning with latency-aware regularization on all par
 <details>
 <summary>Short abstract</summary>
 We introduce AdaViT, a method that adaptively adjusts the inference cost of vision transformer (ViT) for images of different complexity. AdaViT achieves this by automatically reducing the number of tokens in vision transformers that are processed in the network as inference proceeds.
+</details>
+
+## 2022-03
+
+[Can Neural Nets Learn the Same Model Twice? Investigating Reproducibility and Double Descent from the Decision Boundary Perspective](https://arxiv.org/abs/2203.08124)
+<details>
+<summary>Short abstract</summary>
+We discuss methods for visualizing neural network decision boundaries and decision regions. We use these visualizations to investigate issues related to reproducibility and generalization in neural network training.
 </details>
